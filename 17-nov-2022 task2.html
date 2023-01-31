@@ -1,0 +1,67 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/all.css" rel="stylesheet"/>
+<script src="js/bootstrap.bundle.js">
+
+</script>
+<style> 
+#id1
+{
+margin-left:25px;
+font-size:25px;
+}
+
+form
+{
+margin:20px;
+margin-top:70px;
+}
+
+
+</style>
+</head>
+<body>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  GET A QUOTE
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-light"style="height:570px; width:700px;  border:2px solid #0dcaf0">
+      <div class="modal-body" style="color:gray">
+	  <b class="text-danger float-end"data-bs-dismiss="modal"><i class="fa-solid fa-square-xmark"></i></b>
+		<p id="id1"><u>Get a Quote</u></p>
+		<form>
+		<div class="row">
+		<div class="col-6">
+		Your Name:<br/>
+		<input type="text" placeholder="Enter Your Name" class="form-control rounded"/><br/>
+		Your Mobile No:<br/>
+		<input type="text" placeholder="Enter Your Mobile Number" class="form-control"/><br/>
+		Project Type:<br/>
+		<input type="text" placeholder="Project Type" class="form-control"/>
+		</div>
+		<div class="col-6">
+		Your Email:<br/>
+		<input type="email" placeholder="Enter Your Email" class="form-control"/><br/>
+		Project Title:<br/>
+		<input type="text" placeholder="Project Title" class="form-control"/><br/>
+		Cost of Project:<br/>
+		<input type="text" placeholder="Cost of Project" class="form-control"/>
+		</div>
+		</div>
+		Description:<br/>
+		<textarea placeholder="Describe Your Project.." class="form-control"></textarea>
+		<input type="submit" value="SEND" class="btn btn-INFO mt-4 form-contorl w-100 fw-bold fs-6 text-white"style="height:50px;"/>
+		
+		</form>	   
+      </div>
+     
+    </div>
+  </div>
+</div>
+</body>
+</html>
